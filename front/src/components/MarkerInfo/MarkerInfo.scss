@@ -1,0 +1,63 @@
+.marker-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  // max-height: 100%;
+  width: 30%;
+  &__locality {
+    margin-top: 30px;
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      // line-height: 16px;
+      margin: 0;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+  &__cascader {
+    width: 25%;
+  }
+
+  &__chart {
+    width: 100%;
+    position: static;
+
+    .recharts {
+      &-wrapper {
+        width: 100% !important;
+        position: static !important;
+        svg {
+          width: 100%;
+        }
+      }
+      &-legend-wrapper {
+        width: 100% !important;
+        position: static !important;
+      }
+      &-tooltip-wrapper {
+        display: none;
+      }
+      &-surface {
+        position: static;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.MuiInputBase-root {
+  // margin-bottom: 15px;
+}
+
+.ant-cascader-menu {
+  min-width: 30%;
+  min-height: 0;
+  height: auto;
+}
+
+.MuiFormControl-root {
+  width: 70%;
+}

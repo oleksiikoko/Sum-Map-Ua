@@ -1,0 +1,17 @@
+svg.MuiSvgIcon-root {
+  position: relative;
+  top: 6px;
+  margin-right: 7px;
+}
+
+.exit-button {
+  position: absolute;
+  right: 22px;
+  top: 7px;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: inherit;
+}
